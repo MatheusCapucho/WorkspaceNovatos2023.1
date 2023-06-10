@@ -10,6 +10,7 @@ public class SimpleDelegateAndEvent : MonoBehaviour
     {
         Opened += new OpenedEventHandler(OpenDoor);
         Opened += new OpenedEventHandler(OpenChest);
+
     }
 
     private void OnDisable()
@@ -33,7 +34,7 @@ public class SimpleDelegateAndEvent : MonoBehaviour
     public void OpenChest(string name)
     {
 
-        if (name == "Capucho")
+        if (name == "0000")
         {
             Debug.Log("Opened Chest");
         }

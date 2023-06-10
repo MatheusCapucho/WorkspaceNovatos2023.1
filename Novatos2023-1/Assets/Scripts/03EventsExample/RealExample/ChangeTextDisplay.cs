@@ -28,4 +28,9 @@ public class ChangeTextDisplay : MonoBehaviour
         _textComponent.text = "(>*-*)> Action <(*-*<)";
     }
 
+    public string ChangeOtherText(int text)
+    {
+        return "";
+    }
+
 }
